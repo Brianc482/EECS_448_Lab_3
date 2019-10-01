@@ -1,0 +1,28 @@
+* {box-sizing:border-box}
+.slideshow_container {
+  width: 500px;
+  position: relative;
+  margin: auto;
+}
+img { 
+  width: 100%;
+  height: 250px;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 5px;
+  color: blue;
+  font-weight: bold;
+  font-size: 10px;
+  border-color: white;
+}
+.next {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.prev {
+  left: 0;
+  border-radius: 5px 0 0 5px;
+}
